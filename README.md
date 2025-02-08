@@ -1,11 +1,11 @@
 # Báo cáo JMeter
 Thời gian phản hồi (Response Time)
-Lần chạy 1:
+📌Lần chạy 1:
 + Trung bình (Average): 581ms
 + Tối thiểu (Min): 245ms
 + Tối đa (Max): 21670ms
 + Độ lệch chuẩn (Std. Dev.): 2326.01ms
-Lần chạy 2:
+📌Lần chạy 2:
 + Trung bình (Average): 657ms
 + Tối thiểu (Min): 26ms
 + Tối đa (Max): 21632ms
