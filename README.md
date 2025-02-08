@@ -66,22 +66,16 @@ Kết luận về hiệu suất
 ![Mô tả ảnh](https://github.com/miha6824/image/blob/main/Screenshot%202025-02-08%20155316.png)
 # Câu hỏi thảo luận:
 1. Tại sao kiểm thử phi chức năng lại quan trọng trong phần mềm?
-Kiểm thử phi chức năng giúp đảm bảo phần mềm không chỉ hoạt động đúng về mặt chức năng mà còn đáp ứng các yêu cầu về hiệu suất, bảo mật, khả năng mở rộng, tính ổn định và khả năng sử dụng. Nếu chỉ tập trung vào kiểm thử chức năng mà bỏ qua kiểm thử phi chức năng, hệ thống có thể gặp các vấn đề như:
+Kiểm thử phi chức năng giúp đảm bảo phần mềm không chỉ hoạt động đúng về mặt chức năng mà còn đáp ứng các yêu cầu về hiệu suất, bảo mật, khả năng mở rộng, tính ổn định và khả năng sử dụng.
 
-Hiệu suất kém: Ứng dụng có thể bị chậm hoặc không thể xử lý tải lớn.
-Thiếu bảo mật: Dễ bị tấn công hoặc rò rỉ dữ liệu.
-Khả năng mở rộng kém: Không thể đáp ứng số lượng người dùng tăng lên.
-Trải nghiệm người dùng kém: Giao diện khó sử dụng hoặc thời gian phản hồi chậm.
 2. Các thông số quan trọng cần theo dõi trong kiểm thử hiệu suất
 Thời gian phản hồi (Response Time): Thời gian hệ thống xử lý và phản hồi một yêu cầu.
 Thông lượng (Throughput): Số lượng yêu cầu mà hệ thống có thể xử lý trong một khoảng thời gian nhất định.
 Sử dụng tài nguyên (Resource Utilization): Mức độ sử dụng CPU, RAM, băng thông mạng, ổ đĩa.
 Số lượng người dùng đồng thời (Concurrent Users): Số lượng người dùng có thể truy cập hệ thống cùng lúc mà không ảnh hưởng đến hiệu suất.
 Tỷ lệ lỗi (Error Rate): Số lượng lỗi xảy ra trong quá trình xử lý yêu cầu.
+
 3. Nếu hệ thống không đáp ứng yêu cầu hiệu suất, bạn sẽ đề xuất giải pháp gì?
 Tối ưu hóa mã nguồn: Kiểm tra và cải tiến thuật toán, giảm số lượng truy vấn không cần thiết.
 Tối ưu hóa cơ sở dữ liệu: Sử dụng indexing, caching, tối ưu hóa truy vấn SQL.
-Sử dụng caching: Dùng Redis, Memcached để giảm tải truy vấn vào database.
-Cân bằng tải (Load Balancing): Phân phối lưu lượng truy cập đều giữa các máy chủ.
-Tăng cường tài nguyên hệ thống: Nâng cấp server, mở rộng hạ tầng cloud.
-Kiểm thử và giám sát liên tục: Sử dụng các công cụ như JMeter, New Relic, Grafana để theo dõi và cải thiện hiệu suất.
+
