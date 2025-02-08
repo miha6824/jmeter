@@ -69,13 +69,13 @@ Kết luận về hiệu suất
 Kiểm thử phi chức năng giúp đảm bảo phần mềm không chỉ hoạt động đúng về mặt chức năng mà còn đáp ứng các yêu cầu về hiệu suất, bảo mật, khả năng mở rộng, tính ổn định và khả năng sử dụng.
 
 2. Các thông số quan trọng cần theo dõi trong kiểm thử hiệu suất
-Thời gian phản hồi (Response Time): Thời gian hệ thống xử lý và phản hồi một yêu cầu.
-Thông lượng (Throughput): Số lượng yêu cầu mà hệ thống có thể xử lý trong một khoảng thời gian nhất định.
-Sử dụng tài nguyên (Resource Utilization): Mức độ sử dụng CPU, RAM, băng thông mạng, ổ đĩa.
-Số lượng người dùng đồng thời (Concurrent Users): Số lượng người dùng có thể truy cập hệ thống cùng lúc mà không ảnh hưởng đến hiệu suất.
-Tỷ lệ lỗi (Error Rate): Số lượng lỗi xảy ra trong quá trình xử lý yêu cầu.
+- Thời gian phản hồi (Response Time): Thời gian hệ thống xử lý và phản hồi một yêu cầu.
+- Thông lượng (Throughput): Số lượng yêu cầu mà hệ thống có thể xử lý trong một khoảng thời gian nhất định.
+- Sử dụng tài nguyên (Resource Utilization): Mức độ sử dụng CPU, RAM, băng thông mạng, ổ đĩa.
+- Số lượng người dùng đồng thời (Concurrent Users): Số lượng người dùng có thể truy cập hệ thống cùng lúc mà không ảnh hưởng đến hiệu suất.
+- Tỷ lệ lỗi (Error Rate): Số lượng lỗi xảy ra trong quá trình xử lý yêu cầu.
 
 3. Nếu hệ thống không đáp ứng yêu cầu hiệu suất, bạn sẽ đề xuất giải pháp gì?
-Tối ưu hóa mã nguồn: Kiểm tra và cải tiến thuật toán, giảm số lượng truy vấn không cần thiết.
-Tối ưu hóa cơ sở dữ liệu: Sử dụng indexing, caching, tối ưu hóa truy vấn SQL.
+- Tối ưu hóa mã nguồn: Kiểm tra và cải tiến thuật toán, giảm số lượng truy vấn không cần thiết.
+- Tối ưu hóa cơ sở dữ liệu: Sử dụng indexing, caching, tối ưu hóa truy vấn SQL.
 
