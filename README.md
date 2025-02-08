@@ -66,7 +66,7 @@ Kết luận về hiệu suất
 ![Mô tả ảnh](https://github.com/miha6824/image/blob/main/Screenshot%202025-02-08%20155316.png)
 # Câu hỏi thảo luận:
 1. Tại sao kiểm thử phi chức năng lại quan trọng trong phần mềm?
-Kiểm thử phi chức năng giúp đảm bảo phần mềm không chỉ hoạt động đúng về mặt chức năng mà còn đáp ứng các yêu cầu về hiệu suất, bảo mật, khả năng mở rộng, tính ổn định và khả năng sử dụng.
+- Kiểm thử phi chức năng giúp đảm bảo phần mềm không chỉ hoạt động đúng về mặt chức năng mà còn đáp ứng các yêu cầu về hiệu suất, bảo mật, khả năng mở rộng, tính ổn định và khả năng sử dụng.
 
 2. Các thông số quan trọng cần theo dõi trong kiểm thử hiệu suất
 - Thời gian phản hồi (Response Time): Thời gian hệ thống xử lý và phản hồi một yêu cầu.
