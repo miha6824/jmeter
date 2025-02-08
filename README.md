@@ -43,10 +43,12 @@ Thời gian phản hồi (Response Time)
 📌 Nhận xét:
 + Tốc độ nhận và gửi dữ liệu tăng ở lần chạy 2, có thể do tăng lượng request hoặc dung lượng dữ liệu phản hồi.
 + Nếu tiếp tục tăng, có thể ảnh hưởng đến băng thông hoặc tải máy chủ
+
 Kết luận về hiệu suất
 ✅ Ưu điểm:
 ✔️ Throughput tăng từ 31.6 lên 42.8 request/s, cho thấy hệ thống có thể xử lý tải cao hơn.
 ✔️ Tỷ lệ lỗi vẫn thấp (0.29%), chưa có dấu hiệu lỗi nghiêm trọng.
+
 ⚠️ Nhược điểm & Cảnh báo:
 ❗ Thời gian phản hồi tối đa cao (~21 giây), có thể gây trải nghiệm kém cho người dùng.
 ❗ Độ lệch chuẩn lớn (~2300ms+), phản ánh sự không ổn định trong thời gian phản hồi.
